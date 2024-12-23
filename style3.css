@@ -1,0 +1,82 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовки */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin: 20px 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #2980b9;
+}
+
+/* Стили для арабского текста */
+.arabic {
+    text-align: center;
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+/* Разделитель */
+.separator {
+    margin: 35px 0;
+    height: 2px;
+    background-color: #c5c5c5;
+}
+
+/* Текстовые стили */
+p {
+    text-align: justify;
+    margin: 15px 0;
+    font-size: 1.1em;
+}
+
+/* Стили для списков */
+ul, ol {
+    margin-left: 40px;
+}
+
+/* Стили для нижнего колонтитула */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #2980b9;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Стили для секций */
+.vc_row {
+    margin-bottom: 25px;
+}
+
+.vpb_text_column {
+    margin-bottom: 25px;
+}

@@ -1,0 +1,63 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Заголовки */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin: 20px 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #2980b9;
+}
+
+/* Текстовые стили */
+p {
+    text-align: justify;
+    margin: 15px 0;
+    font-size: 1.1em;
+}
+
+/* Стили для арабского текста */
+.arabic {
+    text-align: center;
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+/* Списки */
+ul {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+/* Разделитель */
+.separator {
+    margin: 35px 0;
+    height: 2px;
+    background-color: #c5c5c5;
+}
+
+/* Стили для секций */
+.section-title {
+    text-align: center;
+    font-size: 2em;
+    color: #8e44ad;
+}
